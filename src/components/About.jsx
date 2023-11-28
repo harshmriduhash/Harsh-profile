@@ -6,7 +6,6 @@ const About = () => {
   const info = [
     { text: "Years experience", count: "5" },
     { text: "Completed Projects", count: "14" },
-    { text: "Companies Work", count: "4" },
   ];
 
   const handleDownload = () => {
@@ -30,15 +29,14 @@ const About = () => {
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
                 I'm a creative professional who loves ReactJs.
-                In the last 5 years, I've learned a lot and worked on [HTML,
-                CSS, ReactJS , MongoDB, Redux-Toolkit, Firebase, Bootstrap,
-                Python or NodeJS], contributing to [4] successful projects. I'm
-                really good at [ReactJS], combining technical know-how with
-                passion to come up with new ideas. I always try to do my best
-                and enjoy working in fast-changing environments that push me to
-                keep learning. Outside of work, I like [Binge watching Podcast speacially from Nikhil kamath, cooking
+                In the last 5 years, I've had an amazing opportunity to learn a lot and worked on [HTML5,
+                CSS3, JAVASCRIPT, ES6, ReactJS, MongoDB, Redux, PostgreSQL, REDIS, 
+                TYPESCRIPT, NEXT.js, OOPs, JEST, GraphQL, Firebase, NodeJS,
+                & AWS], contributing to [14] successful projects.
+                I always try to do my best and enjoy working in fast-changing environments that push me to
+                keep learning. Outside of work, I like [watching Podcast speacially from Nikhil kamath, cooking
                 food, sleeping, walking around and talking creative people], which help me
-                see things from different angles. I'm excited to use my skills
+                see things from different angles. I'm excited to use my skills & learn anything new 
                 to make a positive impact in the future.
               </p>
               <div className="flex mt-10 items-center gap-7">

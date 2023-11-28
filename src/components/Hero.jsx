@@ -3,8 +3,7 @@ import hero from "../assets/images/pp.png";
 
 const Hero = () => {
   const social_media = { 
-    linkedin: "https://www.linkedin.com/in/harsh-s-2ab5a0158/", 
-    twitter: "https://twitter.com/Prashant6878", 
+    linkedin: "https://www.linkedin.com/in/harsh-s-2ab5a0158/",  
   };
 
   const handleContactButtonClick = () => {
@@ -35,7 +34,7 @@ const Hero = () => {
             My Name is <span>Harsh </span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
-            ReactJS Developer
+            JavaScript Developer
           </h4>
           <button className="btn-primary mt-8" onClick={handleContactButtonClick}>
             Contact Me

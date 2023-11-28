@@ -4,10 +4,7 @@ const Hireme = () => {
    const [isModalOpen, setIsModalOpen] = useState(false);
 
    const social_media = {
-    instagram: "https://www.instagram.com/prashantmishra6878/", 
-    facebook: "https://www.facebook.com/profile.php?id=100006694141676", 
-    linkedin: "https://www.linkedin.com/in/prashant-mishra-b742231bb/", 
-    twitter: "https://twitter.com/Prashant6878", 
+    linkedin: "https://www.linkedin.com/in/harsh-s-2ab5a0158/", 
   };
 
   console.log(social_media)
@@ -41,8 +38,7 @@ const Hireme = () => {
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
             If you have any work with me then you can connect with me with the
-            help of social media i.e. [LinkedIn, Instagram, Twitter and I have
-            also provided you my number. You can contact me from there].
+            help of social media i.e. [LinkedIn, also provided you my number. You can contact me from there].
           </p>
           <button className="btn-primary mt-10" onClick={handleSayHello}>Say Hello</button>
         </div>
