@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/images/pp.png";
+import hero from "../assets/images/IMG_1.jpg";
 
 const Hero = () => {
   const social_media = { 
@@ -14,6 +14,7 @@ const Hero = () => {
   const handleSocialMediaClick = (platform) => {
     window.open(social_media[platform]);
   };
+
 
   return (
     <section

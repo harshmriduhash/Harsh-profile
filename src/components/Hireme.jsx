@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import hireMe from "../assets/images/pp.png";
+import hireMe from "../assets/images/IMG_2.jpg";
 const Hireme = () => {
    const [isModalOpen, setIsModalOpen] = useState(false);
 
