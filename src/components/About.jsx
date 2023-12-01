@@ -35,7 +35,7 @@ const About = () => {
                 & AWS], contributing to [14] successful projects.
                 I always try to do my best and enjoy working in fast-changing environments that push me to
                 keep learning. Outside of work, I like [watching Podcast speacially from Nikhil kamath, cooking
-                food, sleeping, walking around and talking creative people], which help me
+                food, sleeping, walking around & talking creative people], which help me
                 see things from different angles. I'm excited to use my skills & learn anything new 
                 to make a positive impact in the future.
               </p>
