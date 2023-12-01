@@ -14,34 +14,25 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "G&U Wedding Image Web",
-      github_link: "https://github.com/developerprashant12/museyReduxReact",
-      live_link: "https://musey.ai/", 
+      name: "Music tech company that helps artists manage, distribute, and monetize their music",
+      live_link: "https://www.grootin.in/", 
     },
     {
       img: project2,
-      name: "LLM Review Site",
-      github_link: "https://github.com/developerprashant12/llm",
-      live_link: "https://llmpilot.netlify.app/",
+      name: "An IRCTC authorized partner on a mission to revolutionize the experience of the railway passenger",
+      live_link: "https://www.railofy.com/",
     },
     {
       img: project3,
-      name: "NextPorn",
-      // github_link: "https://github.com/Sridhar-C-25/highking",
-      live_link: "https://nextporn.co/",
+      name: " India's first-ever holistic women's health and fitness application",
+      live_link: "https://www.zury.in/",
     },
     {
       img: project4,
-      name: "Profile Generator Site",
-      // github_link:"https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "http://profilgenerator.de/",
+      name: "DocVita is an online clinic in India that connects patients with doctors and mental health professionals",
+      live_link: "https://docvita.com/",
     },
-    // {
-    //   img: project5,
-    //   name: "Vue Country",
-    //   github_link: "https://github.com/Sridhar-C-25",
-    //   live_link: "https://vuecountry05.netlify.app",
-    // },
+
   ];
   return (
     <section id="projects" className="py-10 text-white">
@@ -77,13 +68,6 @@ const Project = () => {
                   <img src={project_info.img} alt="" className="rounded-lg" />
                   <h3 className="text-xl my-4">{project_info.name}</h3>
                   <div className="flex gap-3">
-                    <a
-                      href={project_info.github_link}
-                      target="_blank"
-                      className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
-                    >
-                      Github
-                    </a>
                     <a
                       href={project_info.live_link}
                       target="_blank"
