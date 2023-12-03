@@ -5,23 +5,44 @@ const Skills = () => {
     {
       logo: "logo-html5",
       level: "Advance",
-      count: 90,
+      count: 100,
     },
     {
       logo: "logo-css3",
      level: "Advance",
-      count: 90,
+      count: 100,
     },
     {
       logo: "logo-nodejs",
       level: "Advance",
-      count: 90,
+      count: 100,
     },
     {
       logo: "logo-react",
       level: "Advance",
-      count: 90,
+      count: 100,
     },
+    {
+      logo: "logo-javascript",
+     level: "Advance",
+      count: 100,
+    },
+    {
+      logo: "logo-Amazon",
+     level: "Advance",
+      count: 100,
+    },
+    {
+      logo: "logo-Github",
+     level: "Advance",
+      count: 100,
+    },
+    {
+      logo: "logo-NPM",
+     level: "Advance",
+      count: 100,
+    },
+
   ];
   return (
     <section id="skills" className="py-10 bg-gray-800 relative">
@@ -29,7 +50,6 @@ const Skills = () => {
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Skills</span>
         </h3>
-        <p className="text-gray-400 mt-3 text-lg">My knowledge</p>
         <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">
           {skills?.map((skill, i) => (
             <div
